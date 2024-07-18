@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+body,
+.watch {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, hsla(52, 100%, 62%, 0.847), hsla(0, 100%, 57%, 0.855));
+  justify-content: center;
+}
+
+.watch {
+  justify-content: space-around;
+  height: 20rem;
+  width: 55rem;
+
+  background: transparent;
+  border-radius: .3rem;
+  box-shadow: 0 .8rem 1rem hsla(0, 0%, 0%, 0.5);
+}
+
+.watch div {
+  height: 17rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  background: hsla(0, 0%, 2%, 0.9);
+  box-shadow: .5rem .5rem 1.5rem hsla(0, 0%, 0%, 0.7);
+  border-radius: .7rem;
+  letter-spacing: .3rem;
+}
+
+.watch span {
+  font-weight: bolder;
+  font-size: 6rem;
+}
+
+.watch span.time {
+  font-size: 1rem;
+}
